@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #424242 url("/assets/body_bg.png");
+}
+.list-style{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.top-bar{
+    height: 62px;
+    border-bottom: solid 2px #dedede;
+    background-color: #f5f5f5;
+}
+.top-bar-list {
+    
+    height: 100%;
+    /* padding:9px 10px 8px 10px; */
+    
+
+}
+.top-bar-list > li{
+    padding: 9px 10px 8px 10px;
+    border-left: 0;
+    border-right: 0;
+}
+.top-bar-list > li:first-child{
+    background-color: #fff;
+    box-shadow: 0 0 7px 1px #666666;
+    /* margin:0 10px; */
+}
+.top-bar-list > li:nth-child(3){
+    border-right: solid 2px #dedede;
+    border-left: solid 2px #dedede;
+}
+.top-bar-list > li:nth-child(5){
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-bar{
+    padding-top:2px;
+    /* padding-bottom:20px; */
+    background-color: white;
+}
+.list-style-pad{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.nav-bar > .list-style > li {
+    width: 9.4%;
+    text-align: center;
+    height: 87px;
+
+}
+.nav-bar > .list-style > li>  a{
+    text-decoration: none;
+    color: #919191;
+    transition: color 0.3s ease;
+}
+.nav-bar > .list-style > li:hover > a {
+    color: white;
+    
+}
+.nav-bar > .list-style > li:first-child > a{
+    color: white;
+}
+.nav-bar > .list-style > li:first-child{
+    background-color: #919191;
+    border-bottom: 5px solid #919191;
+    border-bottom-left-radius: 5%;
+}
+nav-bar > .list-style > li:first-child:hover{
+    background-color: #919191;
+}
+.nav-bar > .list-style > li:nth-child(2){
+    border-bottom: 5px solid #E3350D;
+}
+.nav-bar > .list-style > li:nth-child(2):hover{
+    background-color: #E3350D;
+}
+.nav-bar > .list-style > li:nth-child(3){
+    border-bottom: 5px solid #EE6B2F;
+}
+.nav-bar > .list-style > li:nth-child(3):hover{
+    background-color: #EE6B2F;
+}
+.nav-bar > .list-style > li:nth-child(4){
+    border-bottom: 5px solid #E6BC2F;
+}
+.nav-bar > .list-style > li:nth-child(4):hover{
+    background-color: #E6BC2F;
+}
+.nav-bar > .list-style > li:nth-child(5){
+    border-bottom: 5px solid #4DAD5B;
+}
+.nav-bar > .list-style > li:nth-child(5):hover{
+    background-color: #4DAD5B;
+}
+.nav-bar > .list-style > li:nth-child(6){
+    border-bottom: 5px solid #30A7D7;
+}
+.nav-bar > .list-style > li:nth-child(6):hover{
+    background-color:  #30A7D7;
+}
+.nav-bar > .list-style > li:last-child{
+    border-bottom: 5px solid #1B53BA;
+    border-bottom-right-radius: 5%;
+}
+.nav-bar > .list-style > li:last-child:hover{
+    background-color:  #1B53BA;
+}
+.flex-container{
+    background: #fff url("/assets/container_bg.png");
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-left: 37px;
+}
+.flex{
+    background-color: white;
+    width: 68%;
+    margin-top: 0px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-container{
+padding-top: 45px;
+text-align: center;    
+}
+.left-flex,
+    .right-flex {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .left-flex {
+        background-color: #DAA31C;
+        width: 65%;
+    }
+    .left-flex > .card-image{
+        border-radius:5px 5px 0 0;
+    }
+    .left-flex > .card-text h3{
+        border-radius:0 0 5px 5px;
+        font-size:137.5%;
+        line-height:125%;
+        text-transform:none;
+        font-family:"Flexo-Medium",arial,sans-serif;
+        color: white;
+    }
+    .left-flex > .card-text p{
+        margin: bottom 0.75em;
+        font-family:"Roboto",arial,sans-serif;
+        font-weight:500%;
+        line-height:125%;
+        margin-left:1.25em
+    }
+    .right-flex {
+        width: 34%;
+        text-align: center;
+    }
+    .upper-card > .card-text{
+        background-color: #734BB2;
+
+    }
+    .card-img img,
+    .card-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    .lower-card{
+        text-align: center;
+    }
+    .lower-card > .card-image, .card-text{
+        display: inline-block;
+    }
+    .lower-card > .card-image{
+        width: 50%;
+    }
+    .lower-card > .card-text{
+        width: 40%;
+    }
+
